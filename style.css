@@ -59,7 +59,20 @@ h2 {
   margin-right: 50px;
   margin-bottom: 20px;
 }
-h3,
+
+.page-section {
+display: flex;
+height: 200px;
+justify-content: space-around;
+}
+
+#about, .vl {
+  border-left: 6px solid rgb(80, 85, 80);
+  height: 200px;}
+
+h3 {
+  font-size: 40px;
+}
 h4,
 h5,
 h6 {
