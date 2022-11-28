@@ -14,7 +14,7 @@ body {
 li, a {
   font-weight: 50px;
   font-size: 20px;
-  color: lightblue;
+  color: aqua;
   text-decoration: underline
 }
 
@@ -38,18 +38,25 @@ header {
 
 
 h1 {
-  background-color: lightblue;
+  background-color: aqua;
   color: rgb(54, 51, 51);
   margin-right: auto;
 }
 
 .hero-banner {
+display: flex;
 background-image: url(02-hero-bg.jpg);
 background-size: cover;
 height: 200px;
+justify-content: flex-end;
+align-items: center;
 }
 
-h2,
+h2 {
+  background-color: aqua;
+  color: rgb(54, 51, 51);
+  margin-right: 50px;
+}
 h3,
 h4,
 h5,
