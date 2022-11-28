@@ -13,14 +13,14 @@ body {
 
 li, a {
   font-weight: 50px;
-  font-size: 16px;
+  font-size: 20px;
   color: lightblue;
   text-decoration: underline
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
   background-color: rgb(54, 51, 51);
@@ -28,18 +28,27 @@ header {
 
 .navlinks {
   list-style: none;
+  justify-content: flex-end;
 }
 
 .navlinks li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 
 h1 {
   background-color: lightblue;
   color: rgb(54, 51, 51);
+  margin-right: auto;
 }
+
+.hero-banner {
+background-image: url(02-hero-bg.jpg);
+background-size: cover;
+height: 200px;
+}
+
 h2,
 h3,
 h4,
