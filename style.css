@@ -14,7 +14,7 @@ body {
 li, a {
   font-weight: 50px;
   font-size: 20px;
-  color: aqua;
+  color: rgb(156, 167, 167);
   text-decoration: underline
 }
 
@@ -23,7 +23,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
-  background-color: rgb(54, 51, 51);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .navlinks {
@@ -38,17 +38,15 @@ header {
 
 
 h1 {
-  background-color: aqua;
-  color: rgb(54, 51, 51);
+  color: rgb(156, 167, 167);
   margin-right: auto;
 }
 
 .hero-banner {
 display: flex;
-background-image: url(02-hero-bg.jpg);
+background-image: url(lily2.png);
 background-size: cover;
-box-shadow: 0 3000px rgba(23, 136, 167, 0.4) inset;
-height: 200px;
+height: 500px;
 justify-content: flex-end;
 align-items:flex-end;
 }
@@ -142,10 +140,7 @@ footer a:hover {
 
 .footer-bottom {
   justify-content: flex-end;
-}
-
-.fa-brands fa-github {
-  size: 50px;
+  margin-top: 10px;
 }
 
 
