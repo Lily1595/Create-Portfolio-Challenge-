@@ -4,14 +4,33 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-} 
-
 body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  background-color: black;
+}
+
+/* Nav bar */
+
+header {
+  display: flex;
+  max-width: 2000px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  margin-bottom: 5px;
+  background-color: #070707;
+}
+
+h1 {
+  color: rgb(248, 243, 243);
+  margin-right: auto;
+}
+
+.navlinks {
+  list-style: none;
+  justify-content: flex-end;
 }
 
 li, a {
@@ -25,47 +44,35 @@ li, a:hover {
   color: #080808;
 }
 
-h3:hover {
-  color: #2474a4;
-}
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-  background-color: #133950;
-}
-
-.navlinks {
-  list-style: none;
-  justify-content: flex-end;
-}
-
 .navlinks li {
   display: inline-block;
   padding: 0px 10px;
 }
 
-
-h1 {
-  color: rgb(248, 243, 243);
-  margin-right: auto;
+section {
+  display: flex;
+  background-color: rgb(3, 3, 3);
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.hero-banner {
-display: flex;
-background-image: url(lily2.png);
-background-size: cover;
-background-position: center;
-height: 500px;
+.hero-img {
+  max-width: 400px;
+  height: auto;
+  padding: 0px 5px;
+}
+
+.content-right {
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+h3:hover {
+  color: #2474a4;
 }
 
 h2 {
-  background-color: aqua;
-  color: rgb(54, 51, 51);
-  margin-right: 50px;
-  margin-bottom: 20px;
+  color: rgb(238, 233, 233);
 }
 
 .page-section {
