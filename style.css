@@ -103,7 +103,13 @@ ul{
   padding: 20px 20px;
 }
 
-.amt {
+.colourtab {
+  background-color: #133950;
+  width: fit-content;
+  padding: 5px;
+}
+
+.amt, .rt {
   color: rgb(249, 247, 247);
   background-color: #133950;
   padding: 20px;
@@ -184,17 +190,17 @@ ul{
 
 footer {
   background-color: rgb(0, 0, 0);
-  color:rgb(156, 167, 167);
+  color:rgb(247, 250, 250);
 }
 
 footer a {
-  color:rgb(156, 167, 167);
+  color:rgb(240, 246, 246);
   text-decoration: none;
   font-size: small;
 }
 
 footer a:hover {
-  color: beige;
+  color: #2474a4;
 }
 
 .container {
