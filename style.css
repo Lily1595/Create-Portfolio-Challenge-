@@ -121,14 +121,30 @@ ul{
   margin-bottom: 5px;
   width: 100%;
   gap: 5px 5px;
-  height: 600px;
-  grid-template-rows: 1fr 1fr 1fr; 
+  height: 650px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   grid-template-columns:  0.6fr 1.1fr 1.3fr; 
   grid-template-areas:
+    "am amt amt" 
+    "s st st"   
     "portfolio first-image first-image"
     "portfolio second-image third-image"
     "portfolio fourth-image fifth-image"; 
   }
+
+.am {
+  grid-area: am;
+} 
+
+.amt {
+  grid-area: amt;
+}
+.s {
+  grid-area: s;
+}
+.st {
+  grid-area: st;
+}
 
 .portfolio {
   grid-area: portfolio;
@@ -138,13 +154,22 @@ ul{
   text-decoration: underline;
   color: rgb(9, 9, 9);
   padding-left: 20px;
-  
 }
+
+.text-wrapper {
+  display: inline-block;
+  background-color: rgb(1, 1, 1);
+  color: white;
+  margin: 5px 5px;
+  padding: 2px 5px;
+}
+
 .first-image {
   grid-area: first-image;
   background-image: url(02-portfolio-1.jpg);
   background-size: cover;
 }
+
 .second-image {
   grid-area: second-image;
   background-image: url(02-portfolio-2.jpg);
