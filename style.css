@@ -167,25 +167,60 @@ ul{
   background-size: cover;
 }
 
+.first-image:hover {
+  grid-area: first-image;
+  background-image: url(02-portfolio-1.jpg);
+  background-size: cover;
+  opacity:0.7;
+}
+
 .second-image {
   grid-area: second-image;
   background-image: url(02-portfolio-2.jpg);
   background-size: cover;
+}
+.second-image:hover {
+  grid-area: second-image;
+  background-image: url(02-portfolio-2.jpg);
+  background-size: cover;
+  opacity:0.7;
 }
 .third-image {
   grid-area: third-image;
   background-image: url(02-portfolio-3.jpg);
   background-size: cover;
 }
+.third-image:hover {
+  grid-area: third-image;
+  background-image: url(02-portfolio-3.jpg);
+  background-size: cover;
+  opacity:0.7;
+}
+
 .fourth-image {
   grid-area: fourth-image;
   background-image: url(02-portfolio-4.jpg);
   background-size: cover;
 } 
+
+.fourth-image:hover {
+  grid-area: fourth-image;
+  background-image: url(02-portfolio-4.jpg);
+  background-size: cover;
+  opacity:0.7;
+}
+
 .fifth-image {
   grid-area: fifth-image;
   background-image: url(02-hero-bg.jpg);
   background-size: cover;
+}
+
+.fifth-image:hover {
+  grid-area: fifth-image;
+  background-image: url(02-hero-bg.jpg);
+  background-size: cover;
+  opacity:0.7;
 }
 
 footer {
