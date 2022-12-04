@@ -7,15 +7,22 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
 li, a {
   font-weight: 50px;
   font-size: 20px;
-  color: rgb(156, 167, 167);
+  color: rgb(244, 249, 249);
   text-decoration: underline
+}
+
+li, a:hover {
+  color: #080808;
+}
+
+h3:hover {
+  color: #2474a4;
 }
 
 header {
@@ -23,7 +30,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #133950;
 }
 
 .navlinks {
@@ -38,18 +45,16 @@ header {
 
 
 h1 {
-  color: rgb(156, 167, 167);
+  color: rgb(248, 243, 243);
   margin-right: auto;
 }
 
 .hero-banner {
-margin-top: 5px;
 display: flex;
 background-image: url(lily2.png);
 background-size: cover;
+background-position: center;
 height: 500px;
-justify-content: flex-end;
-align-items:flex-end;
 }
 
 h2 {
@@ -90,43 +95,32 @@ ul{
 	list-style: none;
 }
 
-.main-css-grid {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color:rgb(251, 251, 251);
-  display: grid; 
-  grid-template-columns: 0.4fr 1.6fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 5px 5px; 
-  grid-template-areas: 
-    "am amt"
-    "s st"; 
-}
-.am, .s{
+.am, .r, .portfolio {
   font-size: xx-large;
-  background-color:aqua;
+  background-color: #2474a4;
   text-decoration: solid;
-  text-decoration: underline;
-  color: rgb(9, 9, 9);
-  padding-left: 20px;
+  color: rgb(244, 240, 240);
+  padding: 20px 20px;
 }
 
-.amt, .pft {
-  color: rgb(4, 4, 4);
+.amt {
+  color: rgb(249, 247, 247);
+  background-color: #133950;
+  padding: 20px;
 }
 
-.portfolio-grid {
+.main-grid {
   display: grid;
-  margin-top: 5px;
-  margin-bottom: 5px;
   width: 100%;
-  gap: 5px 5px;
-  height: 650px;
+  height: 800px;
+  margin-top: 1px;
+  column-gap: 2px;
+  row-gap: 1px;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   grid-template-columns:  0.6fr 1.1fr 1.3fr; 
   grid-template-areas:
     "am amt amt" 
-    "s st st"   
+    "r rt rt"   
     "portfolio first-image first-image"
     "portfolio second-image third-image"
     "portfolio fourth-image fifth-image"; 
@@ -139,21 +133,18 @@ ul{
 .amt {
   grid-area: amt;
 }
-.s {
-  grid-area: s;
+
+.r {
+  grid-area: r;
 }
-.st {
-  grid-area: st;
+
+.rt {
+  grid-area: rt;
+  background-color: #133950;
 }
 
 .portfolio {
   grid-area: portfolio;
-  font-size: xx-large;
-  background-color:aqua;
-  text-decoration: solid;
-  text-decoration: underline;
-  color: rgb(9, 9, 9);
-  padding-left: 20px;
 }
 
 .text-wrapper {
